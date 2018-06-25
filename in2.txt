@@ -1,0 +1,8 @@
+AFFICHER("Entrez votre nom :") ;
+_nom=CLAVIER;
+AFFICHER("Votre nom est "@_nom);
+x=0;
+WHILE(x<10){"AFFICHER(x);x=x+1;"}
+AFFICHER("Entrez le nombre d'iteration sur fibonacci : ");
+FOR(x=0;y=1;n=CLAVIER;cpt=0;# cpt<n #cpt=cpt+1;AFFICHER(y);){z=x+y;x=y;y=z;}
+IF(x<0){AFFICHER(x);}ELSE{AFFICHER("AMRAM");}
